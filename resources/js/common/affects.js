@@ -205,4 +205,4 @@ function componentName(component){
     return componentParts.splice(2).join('-')
 }
 
-loadScript("https://maps.googleapis.com/maps/api/js?key=AIzaSyDMB4fJWTPgsBkk2MYmbOsrZqYjbJX7_S0&libraries=places&language=pt");
+loadScript("https://maps.googleapis.com/maps/api/js?key=&libraries=places&language=pt");
