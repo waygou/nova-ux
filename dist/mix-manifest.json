@@ -1,4 +1,10 @@
 {
-    "/js/tool.js": "/js/tool.js",
-    "/css/tool.css": "/css/tool.css"
+    "/components/fields/place/js/bootvue.js": "/components/fields/place/js/bootvue.js",
+    "/components/fields/belongs-to/js/bootvue.js": "/components/fields/belongs-to/js/bootvue.js",
+    "/components/fields/map/js/bootvue.js": "/components/fields/map/js/bootvue.js",
+    "/components/fields/textarea/js/bootvue.js": "/components/fields/textarea/js/bootvue.js",
+    "/components/fields/text/js/bootvue.js": "/components/fields/text/js/bootvue.js",
+    "/components/fields/select/js/bootvue.js": "/components/fields/select/js/bootvue.js",
+    "/components/fields/topic/js/bootvue.js": "/components/fields/topic/js/bootvue.js",
+    "/js/common/affects.js": "/js/common/affects.js"
 }

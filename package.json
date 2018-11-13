@@ -11,9 +11,13 @@
     },
     "devDependencies": {
         "cross-env": "^5.0.0",
-        "laravel-mix": "^1.0"
+        "laravel-mix": "^1.0",
+        "laravel-nova": "^1.0"
     },
     "dependencies": {
-        "vue": "^2.5.0"
+        "places.js": "^1.11.0",
+        "vue-clickaway": "^2.1.0",
+        "vue": "^2.5.0",
+        "vue-google-autocomplete": "^1.1.0"
     }
 }
