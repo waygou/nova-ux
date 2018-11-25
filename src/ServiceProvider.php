@@ -1,6 +1,6 @@
 <?php
 
-namespace Waygou\NovaUX;
+namespace Waygou\NovaUx;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -21,7 +21,7 @@ class ServiceProvider extends BaseServiceProvider
             // Common Xheetah js libraries.
             Nova::script('nova-ux-affects', __DIR__.'/../dist/js/common/affects.js');
 
-            // Fields Xheetah js libraries.
+            // Field libraries.
             Nova::script('nova-ux-field-text', __DIR__.'/../dist/components/fields/text/js/bootvue.js');
             Nova::script('nova-ux-field-textarea', __DIR__.'/../dist/components/fields/textarea/js/bootvue.js');
             Nova::script('nova-ux-field-topic', __DIR__.'/../dist/components/fields/topic/js/bootvue.js');
@@ -29,6 +29,9 @@ class ServiceProvider extends BaseServiceProvider
             Nova::script('nova-ux-field-map', __DIR__.'/../dist/components/fields/map/js/bootvue.js');
             Nova::script('nova-ux-field-place', __DIR__.'/../dist/components/fields/place/js/bootvue.js');
             Nova::script('nova-ux-field-select', __DIR__.'/../dist/components/fields/select/js/bootvue.js');
+
+            // Card libraries.
+            Nova::script('nova-ux-card-resource-header', __DIR__.'/../dist/components/cards/resource-header/js/bootvue.js');
         });
 
         $this->routes();
@@ -51,7 +54,7 @@ class ServiceProvider extends BaseServiceProvider
         }
 
         Route::middleware(['nova'])
-             ->namespace('Waygou\NovaUX\Http\Controllers')
+             ->namespace('Waygou\NovaUx\Http\Controllers')
              ->prefix('nova-vendor/waygou/nova-ux')
              ->group(__DIR__.'/../routes/api.php');
     }

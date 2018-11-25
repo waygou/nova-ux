@@ -1,6 +1,6 @@
 <?php
 
-namespace Waygou\NovaUX\Http\Controllers;
+namespace Waygou\NovaUx\Http\Controllers;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 

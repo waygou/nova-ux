@@ -6,5 +6,6 @@
     "/components/fields/text/js/bootvue.js": "/components/fields/text/js/bootvue.js",
     "/components/fields/select/js/bootvue.js": "/components/fields/select/js/bootvue.js",
     "/components/fields/topic/js/bootvue.js": "/components/fields/topic/js/bootvue.js",
+    "/components/cards/resource-header/js/bootvue.js": "/components/cards/resource-header/js/bootvue.js",
     "/js/common/affects.js": "/js/common/affects.js"
 }

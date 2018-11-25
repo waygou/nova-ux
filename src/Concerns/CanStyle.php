@@ -1,6 +1,6 @@
 <?php
 
-namespace Waygou\NovaUX\Concerns;
+namespace Waygou\NovaUx\Concerns;
 
 trait CanStyle
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Waygou\NovaUX\Components\Fields;
+namespace Waygou\NovaUx\Components\Fields;
 
 use Laravel\Nova\Fields\Select as NovaSelect;
-use Waygou\NovaUX\Concerns\Behaviours;
-use Waygou\NovaUX\Concerns\CanAffect;
+use Waygou\NovaUx\Concerns\Behaviours;
+use Waygou\NovaUx\Concerns\CanAffect;
 
 class Select extends NovaSelect
 {

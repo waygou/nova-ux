@@ -1,11 +1,11 @@
 <?php
 
-namespace Waygou\NovaUX\Components\Fields;
+namespace Waygou\NovaUx\Components\Fields;
 
 use Laravel\Nova\Fields\Textarea as NovaTextarea;
-use Waygou\NovaUX\Concerns\Behaviours;
-use Waygou\NovaUX\Concerns\CanAffect;
-use Waygou\NovaUX\Concerns\CanStyle;
+use Waygou\NovaUx\Concerns\Behaviours;
+use Waygou\NovaUx\Concerns\CanAffect;
+use Waygou\NovaUx\Concerns\CanStyle;
 
 class Textarea extends NovaTextarea
 {

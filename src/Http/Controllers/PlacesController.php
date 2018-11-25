@@ -1,6 +1,6 @@
 <?php
 
-namespace Waygou\NovaUX\Http\Controllers;
+namespace Waygou\NovaUx\Http\Controllers;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Zttp\Zttp;
@@ -57,9 +57,9 @@ class PlacesController
 
         collect(data_get($this->address, 'address_components'))
                ->each(function ($item) use ($type, $key) {
-                   if (in_array($type, $item['types'])) {
-                       $this->result = $item[$key];
-                   }
+                if (in_array($type, $item['types'])) {
+                    $this->result = $item[$key];
+                }
                });
 
         return $this->result;

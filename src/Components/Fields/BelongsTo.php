@@ -1,10 +1,10 @@
 <?php
 
-namespace Waygou\NovaUX\Components\Fields;
+namespace Waygou\NovaUx\Components\Fields;
 
 use Laravel\Nova\Fields\BelongsTo as NovaBelongsTo;
-use Waygou\NovaUX\Concerns\Behaviours;
-use Waygou\NovaUX\Concerns\CanAffect;
+use Waygou\NovaUx\Concerns\Behaviours;
+use Waygou\NovaUx\Concerns\CanAffect;
 
 class BelongsTo extends NovaBelongsTo
 {

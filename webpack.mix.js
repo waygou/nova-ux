@@ -22,4 +22,7 @@ mix.setPublicPath('dist')
    .js('resources/js/components/fields/select/js/bootvue.js',
        'components/fields/select/js/bootvue.js')
 
+   .js('resources/js/components/cards/resource-header/js/bootvue.js',
+       'components/cards/resource-header/js/bootvue.js')
+
    .babel('resources/js/common/affects.js', 'dist/js/common/affects.js')

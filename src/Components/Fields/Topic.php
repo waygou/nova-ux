@@ -1,6 +1,6 @@
 <?php
 
-namespace Waygou\NovaUX\Components\Fields;
+namespace Waygou\NovaUx\Components\Fields;
 
 use Laravel\Nova\Fields\Field;
 use Waygou\XheetahUtils\Models\SvgIcon;
