@@ -204,4 +204,6 @@ function componentName(component) {
     return componentParts.splice(2).join('-');
 }
 
-loadScript("https://maps.googleapis.com/maps/api/js?key=&libraries=places&language=pt");
+var gmapKey = "AIzaSyBYGQp1V96-wXHHW_r0FbDDeWaT7yXxM3M";
+
+loadScript("https://maps.googleapis.com/maps/api/js?key=" + gmapKey + "&libraries=places&language=pt");
