@@ -16,7 +16,7 @@
                     selected
                     :disabled="!field.nullable"
                 >
-                    &mdash;
+                    {{ __('Choose an option') }}
                 </option>
 
                 <option

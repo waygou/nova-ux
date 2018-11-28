@@ -10944,23 +10944,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
@@ -39800,7 +39783,7 @@ var render = function() {
                         disabled: !_vm.field.nullable
                       }
                     },
-                    [_vm._v("\n                —\n            ")]
+                    [_vm._v("—")]
                   ),
                   _vm._v(" "),
                   _vm._l(_vm.availableResources, function(resource) {
@@ -39825,60 +39808,6 @@ var render = function() {
                 ],
                 2
               )
-            : _vm._e(),
-          _vm._v(" "),
-          _vm.softDeletes && !_vm.isLocked
-            ? _c("div", [
-                _c(
-                  "label",
-                  {
-                    staticClass: "flex items-center",
-                    on: {
-                      input: _vm.toggleWithTrashed,
-                      keydown: function($event) {
-                        if (
-                          !("button" in $event) &&
-                          _vm._k(
-                            $event.keyCode,
-                            "space",
-                            32,
-                            $event.key,
-                            " "
-                          ) &&
-                          _vm._k(
-                            $event.keyCode,
-                            "enter",
-                            13,
-                            $event.key,
-                            "Enter"
-                          )
-                        ) {
-                          return null
-                        }
-                        $event.preventDefault()
-                        return _vm.toggleWithTrashed($event)
-                      }
-                    }
-                  },
-                  [
-                    _c("checkbox", {
-                      attrs: {
-                        dusk: _vm.field.resourceName + "-with-trashed-checkbox",
-                        checked: _vm.withTrashed
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("span", { staticClass: "ml-2" }, [
-                      _vm._v(
-                        "\n                    " +
-                          _vm._s(_vm.__("With Trashed")) +
-                          "\n                "
-                      )
-                    ])
-                  ],
-                  1
-                )
-              ])
             : _vm._e()
         ],
         1

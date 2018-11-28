@@ -10685,7 +10685,13 @@ var render = function() {
                   disabled: !_vm.field.nullable
                 }
               },
-              [_vm._v("\n                —\n            ")]
+              [
+                _vm._v(
+                  "\n                " +
+                    _vm._s(_vm.__("Choose an option")) +
+                    "\n            "
+                )
+              ]
             ),
             _vm._v(" "),
             _vm._l(_vm.field.options, function(option) {

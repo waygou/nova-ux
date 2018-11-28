@@ -10617,7 +10617,8 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
         defaultAttributes: function defaultAttributes() {
             return {
                 rows: this.field.rows,
-                class: this.errorClasses
+                class: this.errorClasses,
+                placeholder: this.field.name
             };
         },
         extraAttributes: function extraAttributes() {
