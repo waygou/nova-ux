@@ -11083,7 +11083,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             Can receive {lat:, lng:} or 'lat,lng'
          */
         Nova.$on(this.field.attribute + '-value', function (value) {
-            console.log(value);
             if (value) {
                 if (value.lat) _this.placeMarkerAndCenter(value.lat, value.lng);else {
                     var parts = value.split(',');

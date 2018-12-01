@@ -26,7 +26,6 @@ var Affects = {
                         'field_values': field_values
                     }).then(function (response) {
 
-                        //console.log('axios response completed for component ' + componentName(component) + ', attribute ' + component.field.attribute)
                         switch (componentName(component)) {
 
                             case "field-place":

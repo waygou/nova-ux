@@ -44,7 +44,6 @@
                 Can receive {lat:, lng:} or 'lat,lng'
              */
             Nova.$on(this.field.attribute + '-value', value => {
-                console.log(value)
                 if(value){
                     if(value.lat)
                         this.placeMarkerAndCenter(value.lat, value.lng)
