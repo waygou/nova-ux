@@ -1,6 +1,7 @@
 let mix = require('laravel-mix')
 
 mix.setPublicPath('dist')
+
    .js('resources/js/components/fields/text/js/bootvue.js',
        'components/fields/text/js/bootvue.js')
 
@@ -26,3 +27,4 @@ mix.setPublicPath('dist')
        'components/cards/resource-header/js/bootvue.js')
 
    .babel('resources/js/common/affects.js', 'dist/js/common/affects.js')
+
