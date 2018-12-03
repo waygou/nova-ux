@@ -10996,6 +10996,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
         selectedResourceId: function selectedResourceId(value) {
             if (!this.isSearchable) {
+                console.log('emitting from ' + this.field.attribute);
                 // Trigger onchange event for any child attribute.
                 Nova.$emit('value-affected-' + this.field.attribute, {
                     value: value,

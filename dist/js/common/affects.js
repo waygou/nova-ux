@@ -26,6 +26,8 @@ var Affects = {
                         'field_values': field_values
                     }).then(function (response) {
 
+                        console.log(componentName(component));
+
                         switch (componentName(component)) {
 
                             case "field-place":
@@ -200,7 +202,7 @@ function loadScript(url, callback) {
 function componentName(component) {
     var componentName = component.$options._componentTag;
     var componentParts = component.$vnode.componentOptions.tag.split("-");
-    return componentParts.splice(2).join('-');
+    return componentParts.splice(3).join('-');
 }
 
 var gmapKey = "AIzaSyBYGQp1V96-wXHHW_r0FbDDeWaT7yXxM3M";

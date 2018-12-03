@@ -107,6 +107,7 @@ export default {
 
         selectedResourceId: function(value) {
             if(!this.isSearchable){
+                console.log('emitting from ' + this.field.attribute)
                 // Trigger onchange event for any child attribute.
                 Nova.$emit('value-affected-' + this.field.attribute, {
                     value: value,
