@@ -27,8 +27,6 @@ class AffectsController
         // Locate class method, given the resource.origin.target data get.
         $classMethod = data_get($_SESSION['nova-ux-affect'], "{$resource}.{$origin}.{$target}");
 
-        info("Calling {$resource}.{$origin}.{$target}");
-
         return response()->json(app()->call(
             $classMethod,
             ['value'       => $request->value,

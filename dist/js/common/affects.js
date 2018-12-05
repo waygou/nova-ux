@@ -12,6 +12,8 @@ var Affects = {
 
             this.field.affected.forEach(function (affected) {
 
+                console.log('applying event from ' + affected + ' into ' + field.attribute);
+
                 Nova.$on('value-affected-' + affected, function (_ref) {
                     var value = _ref.value,
                         origin = _ref.origin,
@@ -26,7 +28,7 @@ var Affects = {
                         'field_values': field_values
                     }).then(function (response) {
 
-                        console.log(componentName(component));
+                        console.log('got a trigger event destination to a ' + componentName(component) + ' called ' + field.attribute);
 
                         switch (componentName(component)) {
 

@@ -14,11 +14,11 @@ trait CanAffect
 
         // field = The origin field that will trigger the child field refresh.
         // $this->attribute = The source field that will be refreshed.
-        $origin = strtolower($field);
-        $target = strtolower($this->attribute);
+        $origin = $field;
+        $target = $this->attribute;
 
         $results = debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 2);
-        $resource = strtolower(class_basename($results[1]['class']));
+        $resource = class_basename($results[1]['class']);
 
         if (is_null(data_get($_SESSION['nova-ux-affect'], "{$resource}.{$origin}.{$target}"))) {
             data_set($_SESSION['nova-ux-affect'], "{$resource}.{$origin}.{$target}", $closure);
