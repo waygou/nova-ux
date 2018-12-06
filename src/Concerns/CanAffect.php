@@ -8,7 +8,7 @@ trait CanAffect
     {
         @session_start();
 
-        if (!array_key_exists('nova-ux-affect', $_SESSION)) {
+        if (! array_key_exists('nova-ux-affect', $_SESSION)) {
             $_SESSION['nova-ux-affect'] = [];
         }
 

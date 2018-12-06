@@ -2,10 +2,10 @@
 
 namespace Waygou\NovaUx\Components\Fields;
 
-use Laravel\Nova\Fields\Textarea as NovaTextarea;
-use Waygou\NovaUx\Concerns\Behaviours;
-use Waygou\NovaUx\Concerns\CanAffect;
 use Waygou\NovaUx\Concerns\CanStyle;
+use Waygou\NovaUx\Concerns\CanAffect;
+use Waygou\NovaUx\Concerns\Behaviours;
+use Laravel\Nova\Fields\Textarea as NovaTextarea;
 
 class Textarea extends NovaTextarea
 {
