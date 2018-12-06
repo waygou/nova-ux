@@ -2,8 +2,8 @@
 
 namespace Waygou\NovaUx\Http\Controllers;
 
-use Laravel\Nova\Http\Requests\NovaRequest;
 use Zttp\Zttp;
+use Laravel\Nova\Http\Requests\NovaRequest;
 
 class PlacesController
 {

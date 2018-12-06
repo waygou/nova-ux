@@ -2,9 +2,9 @@
 
 namespace Waygou\NovaUx\Components\Fields;
 
-use Laravel\Nova\Fields\Select as NovaSelect;
-use Waygou\NovaUx\Concerns\Behaviours;
 use Waygou\NovaUx\Concerns\CanAffect;
+use Waygou\NovaUx\Concerns\Behaviours;
+use Laravel\Nova\Fields\Select as NovaSelect;
 
 class Select extends NovaSelect
 {
