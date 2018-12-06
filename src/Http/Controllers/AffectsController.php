@@ -20,9 +20,9 @@ class AffectsController
          */
 
         // Compute the resource to be singular, and lower case, to match in the array.
-        $resource = strtolower(str_singular($request->resource));
-        $origin = strtolower($request->origin);
-        $target = strtolower($request->target);
+        $resource = str_singular($request->resource);
+        $origin = $request->origin;
+        $target = $request->target;
 
         // Locate class method, given the resource.origin.target data get.
         $classMethod = data_get($_SESSION['nova-ux-affect'], "{$resource}.{$origin}.{$target}");
